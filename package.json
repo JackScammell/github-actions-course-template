@@ -8,9 +8,9 @@
     "src": "src"
   },
   "scripts": {
-    "build": "npm webpack --config ./src/webpack.config.js --mode production --openssl-legacy-provider",
-    "dev": "npm webpack --config ./src/webpack.config.js --mode development --watch",
-    "test": "npm standard && npm jest"
+    "build": "npx webpack --config ./src/webpack.config.js --mode production --openssl-legacy-provider",
+    "dev": "npx webpack --config ./src/webpack.config.js --mode development --watch",
+    "test": "npx standard && npx jest"
   },
   "author": "githubtraining",
   "license": "MIT",
